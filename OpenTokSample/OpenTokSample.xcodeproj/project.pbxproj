@@ -22,6 +22,7 @@
 		942FA8721F77F30000FEE46A /* RoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 942FA8701F77F30000FEE46A /* RoomCell.xib */; };
 		942FA8751F77F33500FEE46A /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942FA8741F77F33500FEE46A /* RoomModel.swift */; };
 		945810D91F77F6BE002E7424 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945810D81F77F6BE002E7424 /* AppConstants.swift */; };
+		945810DD1F780A4E002E7424 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945810DC1F780A4E002E7424 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		942FA8701F77F30000FEE46A /* RoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCell.xib; sourceTree = "<group>"; };
 		942FA8741F77F33500FEE46A /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
 		945810D81F77F6BE002E7424 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		945810DC1F780A4E002E7424 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		9690742A371D98C840DF8CFF /* Pods-OpenTokSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTokSample/Pods-OpenTokSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B1C04CC4FAF0D32F4E472D86 /* Pods-OpenTokSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTokSample/Pods-OpenTokSample.release.xcconfig"; sourceTree = "<group>"; };
 		E62C395D852BD8A287AF80E4 /* Pods-OpenTokSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTokSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenTokSampleTests/Pods-OpenTokSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,13 +126,12 @@
 		941B555B1F77F0D500F602C6 /* OpenTokSample */ = {
 			isa = PBXGroup;
 			children = (
-				942FA8731F77F30A00FEE46A /* Models */,
-				942FA86B1F77F2A700FEE46A /* Views */,
-				941B555C1F77F0D500F602C6 /* AppDelegate.swift */,
-				941B55601F77F0D500F602C6 /* Main.storyboard */,
-				941B55631F77F0D500F602C6 /* Assets.xcassets */,
-				941B55651F77F0D500F602C6 /* LaunchScreen.storyboard */,
 				941B55681F77F0D500F602C6 /* Info.plist */,
+				945810DA1F780A1E002E7424 /* Resources */,
+				942FA86B1F77F2A700FEE46A /* Views */,
+				942FA8731F77F30A00FEE46A /* Models */,
+				945810DB1F780A35002E7424 /* Util */,
+				941B555C1F77F0D500F602C6 /* AppDelegate.swift */,
 			);
 			path = OpenTokSample;
 			sourceTree = "<group>";
@@ -171,6 +172,24 @@
 				945810D81F77F6BE002E7424 /* AppConstants.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		945810DA1F780A1E002E7424 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				941B55601F77F0D500F602C6 /* Main.storyboard */,
+				941B55631F77F0D500F602C6 /* Assets.xcassets */,
+				941B55651F77F0D500F602C6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		945810DB1F780A35002E7424 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				945810DC1F780A4E002E7424 /* Util.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		D4A0A2C3C5F1A652084AB10E /* Frameworks */ = {
@@ -491,6 +510,7 @@
 				945810D91F77F6BE002E7424 /* AppConstants.swift in Sources */,
 				941B555F1F77F0D500F602C6 /* ViewController.swift in Sources */,
 				942FA8751F77F33500FEE46A /* RoomModel.swift in Sources */,
+				945810DD1F780A4E002E7424 /* Util.swift in Sources */,
 				942FA8711F77F30000FEE46A /* RoomCell.swift in Sources */,
 				941B555D1F77F0D500F602C6 /* AppDelegate.swift in Sources */,
 			);

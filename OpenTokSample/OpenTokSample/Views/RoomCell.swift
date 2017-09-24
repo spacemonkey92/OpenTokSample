@@ -10,10 +10,16 @@ import UIKit
 
 class RoomCell: UITableViewCell {
 
+    @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var nameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        // Border
+        self.mainView.layer.cornerRadius = 6
+        self.mainView.layer.borderWidth = 0.5
+        self.mainView.layer.borderColor = UIColor.darkGray.cgColor
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
