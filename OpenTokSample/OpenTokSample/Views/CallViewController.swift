@@ -38,6 +38,10 @@ class CallViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func didClickClose(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     
 }
 extension CallViewController: OTSessionDelegate {

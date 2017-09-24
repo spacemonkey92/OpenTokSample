@@ -9,5 +9,5 @@
 import Foundation
 
 class AppConstants{
-    static let AppKey = "45946952"
+    static let AppKey = ""
 }
